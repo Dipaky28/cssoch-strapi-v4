@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_labels_labels",
+  "info": {
+    "icon": "ad",
+    "description": "",
+    "displayName": "Labels"
+  },
+  "options": {},
+  "attributes": {
+    "grades": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::grade.grade"
+    },
+    "concepts": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::concept.concept"
+    }
+  }
+}

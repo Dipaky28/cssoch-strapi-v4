@@ -1,0 +1,27 @@
+{
+  "kind": "collectionType",
+  "collectionName": "blockly_images",
+  "info": {
+    "singularName": "blockly-image",
+    "pluralName": "blockly-images",
+    "displayName": "Blockly-image",
+    "name": "blockly-image"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "Images": {
+      "type": "media",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "multiple": true,
+      "required": false
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_puzzle_text_options_puzzle_text_options",
+  "info": {
+    "icon": "arrow-right",
+    "displayName": "PuzzleTextOptions"
+  },
+  "options": {},
+  "attributes": {
+    "OptionA": {
+      "type": "text"
+    },
+    "OptionB": {
+      "type": "text"
+    },
+    "OptionC": {
+      "type": "text"
+    },
+    "OptionD": {
+      "type": "text"
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_story_group_stories",
+  "info": {
+    "icon": "file-signature",
+    "displayName": "Group-Stories"
+  },
+  "options": {},
+  "attributes": {
+    "stories": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::story.story"
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_levels_levels",
+  "info": {
+    "icon": "arrow-circle-right",
+    "description": "",
+    "displayName": "Level"
+  },
+  "options": {},
+  "attributes": {
+    "configFile": {
+      "type": "media",
+      "allowedTypes": [
+        "files"
+      ],
+      "multiple": false,
+      "required": true
+    },
+    "Instructions": {
+      "type": "text",
+      "required": true
+    },
+    "DemoLevel": {
+      "type": "boolean",
+      "default": false
+    }
+  }
+}

@@ -1,0 +1,71 @@
+{
+  "kind": "collectionType",
+  "collectionName": "game_sets",
+  "info": {
+    "singularName": "game-set",
+    "pluralName": "game-sets",
+    "displayName": "Game-set",
+    "name": "game-set"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "Game Set Name": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "Labels": {
+      "type": "component",
+      "repeatable": false,
+      "component": "labels.labels",
+      "required": true
+    },
+    "Category": {
+      "type": "enumeration",
+      "enum": [
+        "Exercise",
+        "Assessment",
+        "Project"
+      ],
+      "required": true
+    },
+    "Structure": {
+      "type": "enumeration",
+      "enum": [
+        "codingEnvironment",
+        "playgroundEnvironment"
+      ],
+      "required": true
+    },
+    "DemoVideo": {
+      "type": "media",
+      "allowedTypes": [
+        "videos"
+      ],
+      "multiple": false,
+      "required": false
+    },
+    "Levels": {
+      "type": "component",
+      "repeatable": true,
+      "component": "levels.level",
+      "required": true
+    },
+    "GameTypes": {
+      "type": "component",
+      "repeatable": false,
+      "component": "game-type.game-types",
+      "required": true
+    },
+    "ConfigOptions": {
+      "type": "component",
+      "repeatable": false,
+      "component": "config-options.configoptions",
+      "required": false
+    }
+  }
+}

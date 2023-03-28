@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_puzzle_group_puzzles",
+  "info": {
+    "icon": "gem",
+    "displayName": "Group-Puzzles"
+  },
+  "options": {},
+  "attributes": {
+    "puzzles": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::puzzle.puzzle"
+    }
+  }
+}

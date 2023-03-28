@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_illustrations_illustrations",
+  "info": {
+    "icon": "address-book",
+    "description": "",
+    "displayName": "Illustrations"
+  },
+  "options": {},
+  "attributes": {
+    "Text": {
+      "type": "text",
+      "required": true
+    },
+    "image_name": {
+      "type": "media",
+      "allowedTypes": [
+        "images"
+      ],
+      "multiple": false,
+      "required": false
+    }
+  }
+}

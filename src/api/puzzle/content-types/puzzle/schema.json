@@ -1,0 +1,74 @@
+{
+  "kind": "collectionType",
+  "collectionName": "puzzles",
+  "info": {
+    "singularName": "puzzle",
+    "pluralName": "puzzles",
+    "displayName": "Puzzle",
+    "name": "puzzle"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "PuzzleName": {
+      "type": "string",
+      "required": true
+    },
+    "Labels": {
+      "type": "component",
+      "repeatable": false,
+      "component": "labels.labels",
+      "required": true
+    },
+    "Level": {
+      "type": "enumeration",
+      "enum": [
+        "Easy",
+        "Medium",
+        "Hard"
+      ]
+    },
+    "PuzzleQuestion": {
+      "type": "text"
+    },
+    "QuestionImage": {
+      "type": "media",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "multiple": false,
+      "required": false
+    },
+    "ImageOptions": {
+      "type": "component",
+      "repeatable": false,
+      "component": "puzzle-options.options"
+    },
+    "CorrectOption": {
+      "type": "enumeration",
+      "enum": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "required": true
+    },
+    "TextOptions": {
+      "type": "component",
+      "repeatable": false,
+      "component": "puzzle-text-options.puzzle-text-options"
+    },
+    "Explanation": {
+      "type": "component",
+      "repeatable": false,
+      "component": "explanation.explanation",
+      "required": true
+    }
+  }
+}

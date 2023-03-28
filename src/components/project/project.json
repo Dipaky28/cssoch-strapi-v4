@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_project_projects",
+  "info": {
+    "icon": "angle-double-up",
+    "displayName": "Project"
+  },
+  "options": {},
+  "attributes": {
+    "games": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::game-set.game-set"
+    }
+  }
+}

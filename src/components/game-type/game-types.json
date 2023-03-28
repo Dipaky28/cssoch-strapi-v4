@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_game_type_game_types",
+  "info": {
+    "icon": "angle-double-left",
+    "description": "",
+    "displayName": "gameTypes"
+  },
+  "options": {},
+  "attributes": {
+    "GameTypes": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::game-type.game-type"
+    }
+  }
+}

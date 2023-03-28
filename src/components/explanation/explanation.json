@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_explanation_explanations",
+  "info": {
+    "icon": "angle-up",
+    "displayName": "Explanation"
+  },
+  "options": {},
+  "attributes": {
+    "Explanation": {
+      "type": "text"
+    },
+    "Image": {
+      "type": "media",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "multiple": true,
+      "required": false
+    }
+  }
+}

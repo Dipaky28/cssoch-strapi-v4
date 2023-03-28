@@ -1,0 +1,22 @@
+{
+  "kind": "collectionType",
+  "collectionName": "grades",
+  "info": {
+    "singularName": "grade",
+    "pluralName": "grades",
+    "displayName": "Grade",
+    "name": "grade"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "Grade": {
+      "type": "integer",
+      "required": true,
+      "unique": true
+    }
+  }
+}

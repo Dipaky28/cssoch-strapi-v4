@@ -1,0 +1,35 @@
+{
+  "collectionName": "components_over_view_group_grades",
+  "info": {
+    "icon": "address-card",
+    "displayName": "group-grades"
+  },
+  "options": {},
+  "attributes": {
+    "Grade1": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::module.module"
+    },
+    "Grade2": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::module.module"
+    },
+    "Grade3": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::module.module"
+    },
+    "Grade4": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::module.module"
+    },
+    "Grade5": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::module.module"
+    }
+  }
+}
