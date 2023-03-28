@@ -1,0 +1,51 @@
+{
+  "kind": "collectionType",
+  "collectionName": "modules",
+  "info": {
+    "name": "Module",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "Module Name": {
+      "type": "string"
+    },
+    "Notes": {
+      "type": "richtext"
+    },
+    "Story": {
+      "type": "component",
+      "repeatable": false,
+      "component": "story.group-stories"
+    },
+    "Puzzle": {
+      "type": "component",
+      "repeatable": false,
+      "component": "puzzle.group-puzzles"
+    },
+    "Assessment": {
+      "type": "component",
+      "repeatable": false,
+      "component": "assessment.assessment"
+    },
+    "Games": {
+      "type": "component",
+      "repeatable": false,
+      "component": "game.group-games"
+    },
+    "Labels": {
+      "type": "component",
+      "repeatable": false,
+      "component": "labels.labels"
+    },
+    "Project": {
+      "type": "component",
+      "repeatable": false,
+      "component": "project.project"
+    }
+  }
+}

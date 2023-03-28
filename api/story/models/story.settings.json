@@ -1,0 +1,31 @@
+{
+  "kind": "collectionType",
+  "collectionName": "story",
+  "info": {
+    "name": "story",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "Story Name": {
+      "type": "string",
+      "unique": true,
+      "required": true
+    },
+    "Labels": {
+      "type": "component",
+      "repeatable": false,
+      "component": "labels.labels",
+      "required": true
+    },
+    "Frames": {
+      "type": "component",
+      "repeatable": true,
+      "component": "illustrations.illustrations"
+    }
+  }
+}

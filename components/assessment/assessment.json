@@ -1,0 +1,20 @@
+{
+  "collectionName": "components_assessment_assessments",
+  "info": {
+    "name": "Assessment",
+    "icon": "balance-scale"
+  },
+  "options": {},
+  "attributes": {
+    "Games": {
+      "type": "component",
+      "repeatable": false,
+      "component": "game.group-games"
+    },
+    "Puzzle": {
+      "type": "component",
+      "repeatable": false,
+      "component": "puzzle.group-puzzles"
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "kind": "collectionType",
+  "collectionName": "curricula",
+  "info": {
+    "name": "Curriculum",
+    "displayName": "Curriculum",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "Curriculum Name": {
+      "type": "string"
+    },
+    "AssignModule": {
+      "type": "component",
+      "repeatable": false,
+      "component": "over-view.group-grades"
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_game_type_game_types",
+  "info": {
+    "name": "gameTypes",
+    "icon": "angle-double-left",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "GameTypes": {
+      "collection": "game-type"
+    }
+  }
+}

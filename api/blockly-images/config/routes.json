@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/blockly-images",
+      "handler": "blockly-images.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/blockly-images/count",
+      "handler": "blockly-images.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/blockly-images/:id",
+      "handler": "blockly-images.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/blockly-images",
+      "handler": "blockly-images.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/blockly-images/:id",
+      "handler": "blockly-images.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/blockly-images/:id",
+      "handler": "blockly-images.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

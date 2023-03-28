@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_over_view_group_grades",
+  "info": {
+    "name": "group-grades",
+    "icon": "address-card"
+  },
+  "options": {},
+  "attributes": {
+    "Grade1": {
+      "collection": "module"
+    },
+    "Grade2": {
+      "collection": "module"
+    },
+    "Grade3": {
+      "collection": "module"
+    },
+    "Grade4": {
+      "collection": "module"
+    },
+    "Grade5": {
+      "collection": "module"
+    }
+  }
+}

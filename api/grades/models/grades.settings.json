@@ -1,0 +1,20 @@
+{
+  "kind": "collectionType",
+  "collectionName": "grades",
+  "info": {
+    "name": "Grades",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "Grade": {
+      "type": "integer",
+      "required": true,
+      "unique": true
+    }
+  }
+}

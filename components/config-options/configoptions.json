@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_config_options_configoptions",
+  "info": {
+    "name": "configoptions",
+    "icon": "angle-double-right"
+  },
+  "options": {},
+  "attributes": {
+    "Renderer": {
+      "type": "enumeration",
+      "enum": [
+        "Thrasos",
+        "Zelos",
+        "Geras"
+      ]
+    },
+    "CategoriesInToolbox": {
+      "type": "boolean"
+    }
+  }
+}

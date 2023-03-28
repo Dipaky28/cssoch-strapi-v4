@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_story_group_stories",
+  "info": {
+    "name": "Group-Stories",
+    "icon": "file-signature"
+  },
+  "options": {},
+  "attributes": {
+    "stories": {
+      "collection": "story"
+    }
+  }
+}

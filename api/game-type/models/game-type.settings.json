@@ -1,0 +1,50 @@
+{
+  "kind": "collectionType",
+  "collectionName": "game_types",
+  "info": {
+    "name": "Game Type",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "Game Type Name": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "Graphics": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": ["images"],
+      "plugin": "upload",
+      "required": true
+    },
+    "Sounds": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": ["files"],
+      "plugin": "upload",
+      "required": false
+    },
+    "ErrorMessages": {
+      "type": "component",
+      "repeatable": true,
+      "component": "error.message",
+      "required": true
+    },
+    "SuccessMessage": {
+      "type": "component",
+      "repeatable": true,
+      "component": "success.message",
+      "required": true
+    },
+    "ArrowButtons": {
+      "type": "boolean",
+      "default": false
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "kind": "collectionType",
+  "collectionName": "blockly_images",
+  "info": {
+    "name": "Blockly Images"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "Images": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_puzzle_group_puzzles",
+  "info": {
+    "name": "Group-Puzzles",
+    "icon": "gem"
+  },
+  "options": {},
+  "attributes": {
+    "puzzles": {
+      "collection": "puzzle"
+    }
+  }
+}

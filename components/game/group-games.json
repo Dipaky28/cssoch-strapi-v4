@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_game_group_games",
+  "info": {
+    "name": "Group-Games",
+    "icon": "dice-d20"
+  },
+  "options": {},
+  "attributes": {
+    "GameSets": {
+      "collection": "game-set"
+    }
+  }
+}

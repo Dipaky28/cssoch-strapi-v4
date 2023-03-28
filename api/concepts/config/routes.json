@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/concepts",
+      "handler": "concepts.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/concepts/count",
+      "handler": "concepts.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/concepts/:id",
+      "handler": "concepts.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/concepts",
+      "handler": "concepts.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/concepts/:id",
+      "handler": "concepts.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/concepts/:id",
+      "handler": "concepts.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

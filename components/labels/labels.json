@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_labels_labels",
+  "info": {
+    "name": "Labels",
+    "icon": "ad",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "grades": {
+      "collection": "grades"
+    },
+    "concepts": {
+      "collection": "concepts"
+    }
+  }
+}

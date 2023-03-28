@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/puzzles",
+      "handler": "puzzle.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/puzzles/count",
+      "handler": "puzzle.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/puzzles/:id",
+      "handler": "puzzle.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/puzzles",
+      "handler": "puzzle.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/puzzles/:id",
+      "handler": "puzzle.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/puzzles/:id",
+      "handler": "puzzle.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

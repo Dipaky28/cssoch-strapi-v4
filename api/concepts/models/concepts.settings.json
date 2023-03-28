@@ -1,0 +1,20 @@
+{
+  "kind": "collectionType",
+  "collectionName": "concepts",
+  "info": {
+    "name": "Concepts",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "Concept_Title": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    }
+  }
+}

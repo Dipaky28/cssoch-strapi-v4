@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_project_projects",
+  "info": {
+    "name": "Project",
+    "icon": "angle-double-up"
+  },
+  "options": {},
+  "attributes": {
+    "games": {
+      "collection": "game-set"
+    }
+  }
+}

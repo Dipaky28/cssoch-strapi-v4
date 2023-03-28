@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_success_messages",
+  "info": {
+    "name": "Message",
+    "icon": "angle-right",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Message": {
+      "type": "string",
+      "required": false,
+      "unique": false
+    }
+  }
+}

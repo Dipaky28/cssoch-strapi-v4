@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_explanation_explanations",
+  "info": {
+    "name": "Explanation",
+    "icon": "angle-up"
+  },
+  "options": {},
+  "attributes": {
+    "Explanation": {
+      "type": "text"
+    },
+    "Image": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    }
+  }
+}

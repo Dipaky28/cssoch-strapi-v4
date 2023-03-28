@@ -1,0 +1,76 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/curriculum",
+      "handler": "curriculum.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/curriculum/count",
+      "handler": "curriculum.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/curriculum/:id",
+      "handler": "curriculum.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/curriculum",
+      "handler": "curriculum.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/curriculum/:id",
+      "handler": "curriculum.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/curriculum/:id",
+      "handler": "curriculum.delete",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/curriculum/school/:schoolname",
+      "handler": "curriculum.findCurriculumBySchoolName",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/curriculum/modules/:curriculumnID/:grade",
+      "handler": "curriculum.getModulesByCurriculumnAndGrade",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/curriculumn/all",
+      "handler": "curriculum.getAllCurriculumn",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
